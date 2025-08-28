@@ -2,7 +2,7 @@
 
 This project implements an **8-bit 1-to-2 demultiplexer** in VHDL.  
 The demultiplexer routes an input vector `D` to one of two outputs (`O1`, `O2`) depending on the select line `S`.  
-
+This project is **synthesizable** and suitable for **Synopsys tools**, and simulation is done using **ModelSim**.
 
 ## Project Structure
 - `deMUX1to2.vhd` → RTL design (8-bit 1-to-2 demux)  
